@@ -3,12 +3,14 @@
 \ProvidesClass{AcademicFormatWits-ExtendsMemoir}[2022/02/14 General format class for reports - v1.0]
 
 \def\getDegreeLevel{postgraduate}
+\def\cmdLoad{\LoadClass[a4paper,11pt,openany]{memoir}\AtEndOfClass{\useWitsParagraphFormatting}}
 
 \DeclareOption{nonStandardParagraph}{\AtEndOfClass{\useWitsParagraphFormatting}}
 \DeclareOption{useClickablePlots}{\AtEndOfClass{\ClickablePlots}}
 \DeclareOption{useGlossaries}{\AtEndOfClass{\makeglossaries}}
 \DeclareOption{useReferencesAndBibliography}{\AtEndOfClass{\UseReferencesAndBibliography}}
 \DeclareOption{undergraduate}{\def\getDegreeLevel{undergraduate}}
+\DeclareOption{nonStandard}{\def\cmdLoad{\LoadClass{memoir}}}
 %\DeclareOption{showBibliographyAccessDate}{\AtEndOfClass{\enableReferenceAccessedField}}
 
 %\ExecuteOptions{11pt,openany,a4paper}
@@ -16,23 +18,22 @@
 \ProcessOptions\relax
 
 \RequirePackage{xstring}
-\IfSubStr{\@classoptionslist}{}
-  {
-  	\LoadClass[a4paper,11pt,openany]{memoir}
-  }
-  {
-  	\LoadClass{memoir}
-  }
-
+%\IfSubStr{\@classoptionslist}{nonStandard}
+%  {
+%  	\LoadClass[a4paper,11pt,openany]{memoir}
+%  }
+%  {
+%  	\LoadClass{memoir}
+%  }
+\cmdLoad
 %\LoadClass{memoir}
-
-\AtEndOfClass{\useWitsParagraphFormatting}
 
 \AtBeginDocument{
 	\setMetadata
 	\def\labelitemi{\ensuremath{\bullet}}
 	\glsdisablehyper
 	\enableReferenceAccessedField
+	\OpenAction{/S/JavaScript/JS(this.dirty=false;)}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -163,7 +164,7 @@
 %}
 \newcommand{\setAuthor}[2][]{
 \def\getAuthor{#2}
-\ifthenelse{\isempty{#1}}{\def\getAuthorSignature{\sigField{Author Signature}{6cm}{2.5cm}\par}}{
+\ifthenelse{\isempty{#1}}{\def\getAuthorSignature{\sigField{Author Signature}{6cm}{2.5cm} \\ \rule{6cm}{0.4pt}\par}}{
 \def\getAuthorSignature{\includegraphics[height=2.5cm]{#1}}}
 }
 
