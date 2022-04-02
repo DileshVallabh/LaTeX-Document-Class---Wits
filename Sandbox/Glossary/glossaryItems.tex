@@ -1,0 +1,34 @@
+%--------------Acronyms--------------%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \newacronym[longplural={<Plural>}]{<label>}{<Acronym>}{<Full>}
+% \newacronym{<label>}{<Acronym>}{<Full>}
+\newacronym{nasa}{NASA}{National Aeronautics and Space Administration}
+
+%--------------Symbols---------------%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \newglossaryentry{}{name={\ensuremath{}},description={},sort=,type=symbols}
+% \ensuremath{} is apparently necessary. Sort is basically for symbols that require you to specify the pronunciation so it can be sorted alphabetically. LaTeX cannot sort greek letters for example.
+
+\newglossaryentry{forceVector}{name={\ensuremath{\mathbf{F}}},description={Force vector in three dimensions.},sort=Force vector,type=symbols}
+
+\newglossaryentry{momentVector}{name={\ensuremath{\mathbf{M}}},description={Moment vector in three dimensions.},sort=Moment vector,type=symbols}
+
+\newglossaryentry{velocityVector}{name={\ensuremath{\mathbf{V}}},description={Velocity vector},sort=Velocity vector,type=symbols}
+
+\newglossaryentry{OmegaBody}{name={\ensuremath{\mathbf{\Omega}}},description={Vector of angualr rates},sort=Omega,type=symbols}
+
+\newglossaryentry{u}{name={\ensuremath{u}},description={Velocity in the body axes \ensuremath{x} direction},sort=u,type=symbols}
+
+\newglossaryentry{v}{name={\ensuremath{v}},description={Velocity in the body axes \ensuremath{y} direction},sort=v,type=symbols}
+
+\newglossaryentry{w}{name={\ensuremath{w}},description={Velocity in the body axes \ensuremath{z} direction},sort=w,type=symbols}
+
+\newglossaryentry{p}{name={\ensuremath{p}},description={Angular velocity about the body axes \ensuremath{x} direction},sort=p,type=symbols}
+
+\newglossaryentry{q}{name={\ensuremath{q}},description={Angular velocity about the body axes \ensuremath{y} direction},sort=q,type=symbols}
+
+\newglossaryentry{r}{name={\ensuremath{r}},description={Angular velocity about the body axes \ensuremath{z} direction},sort=r,type=symbols}
+
+\newglossaryentry{L}{name={\ensuremath{\mathbf{L}}},description={Transformation matrix},sort=L,type=symbols}
