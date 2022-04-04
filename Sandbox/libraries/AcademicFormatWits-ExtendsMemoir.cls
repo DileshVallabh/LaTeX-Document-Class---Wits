@@ -1,9 +1,15 @@
 % Dilesh Vallabh - 2022
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{AcademicFormatWits-ExtendsMemoir}[2022/02/14 General format class for reports - v1.0]
+\ProvidesClass{AcademicFormatWits-ExtendsMemoir}[2022/04/04 General format class for reports - v0.1.0]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%% Global Variables
 \def\getDegreeLevel{postgraduate}
+\def\getRefStyle{numeric}
 \def\cmdLoad{\LoadClass[a4paper,11pt,openany]{memoir}\AtEndOfClass{\useWitsParagraphFormatting}}
+
+
+%% Class options
 
 \DeclareOption{nonStandardParagraph}{\AtEndOfClass{\useWitsParagraphFormatting}}
 \DeclareOption{useClickablePlots}{\AtEndOfClass{\ClickablePlots}}
@@ -11,41 +17,25 @@
 \DeclareOption{useReferencesAndBibliography}{\AtEndOfClass{\UseReferencesAndBibliography}}
 \DeclareOption{undergraduate}{\def\getDegreeLevel{undergraduate}}
 \DeclareOption{nonStandard}{\def\cmdLoad{\LoadClass{memoir}}}
-%\DeclareOption{showBibliographyAccessDate}{\AtEndOfClass{\enableReferenceAccessedField}}
-
-%\ExecuteOptions{11pt,openany,a4paper}
+\DeclareOption{useAuthorYearCitation}{\def\getRefStyle{authoryear}}
+\DeclareOption{showBibliographyAccessDate}{\AtBeginDocument{\enableReferenceAccessedField}}
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{memoir}}
 \ProcessOptions\relax
 
-\RequirePackage{xstring}
-%\IfSubStr{\@classoptionslist}{nonStandard}
-%  {
-%  	\LoadClass[a4paper,11pt,openany]{memoir}
-%  }
-%  {
-%  	\LoadClass{memoir}
-%  }
 \cmdLoad
-%\LoadClass{memoir}
 
 \AtBeginDocument{
 	\setMetadata
 	\def\labelitemi{\ensuremath{\bullet}}
 	\glsdisablehyper
-	\enableReferenceAccessedField
 	\OpenAction{/S/JavaScript/JS(this.dirty=false;)}
+	\everyTextField{\textFont{Times}\textSize{11}\S{U}\W{0.5}}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%\RequirePackage{ifpdf}	%Allows automatic setting of a few pdf-related options
-%\ifpdf
-%\RequirePackage[pdftex]{graphicx}
-%\RequirePackage{epstopdf}
-%\else
+
 \RequirePackage{graphicx}
-%\fi
-%\RequirePackage[left=2.50cm, right=2.50cm, top=2.50cm, bottom=2.50cm]{geometry}
 \RequirePackage{epsfig}	%Allows insertion of certain graphics
 \RequirePackage[centertags]{amsmath}	%Allows insertion of MANY maths symbols
 \RequirePackage{amsthm,amsfonts,amssymb}	%Allows insertion of MANY maths symbols
@@ -54,43 +44,30 @@
 \RequirePackage{newlfont,bezier}
 \RequirePackage{longtable,tabu}	%Allows specifcation of tabular evironments longer than 1 page
 \RequirePackage{multirow}	%Allows specifcation of multirow entires in tabular environments
-\RequirePackage{textcomp}
 \RequirePackage{etoolbox}
 \RequirePackage[british]{babel}
-\RequirePackage{csquotes}
-\RequirePackage[numbered]{libraries/mcode}
 \RequirePackage{xcolor}
 \RequirePackage{pdflscape}%Creates landscape pages
 \RequirePackage{xifthen}	%Allows the use of command branching functions
-\RequirePackage{rotating}	%Allows vertical text in tabular areas (amongst others)
 \RequirePackage{marvosym}	%Allows insertion of engineering symbols
 \RequirePackage{pdfpages}	%Allows inclusions of pages from external PDF documents
 \RequirePackage{fixltx2e}	%Makes several corrections to LaTeX and enables text subscripts
-\RequirePackage{wrapfig}	%Allows the insertion of figures in text with the text reflowed around them
 \RequirePackage{booktabs}
 \RequirePackage{longtable}
 \RequirePackage{subcaption}
 \RequirePackage{lipsum}		%Used to generate dummy text
 \RequirePackage{verbatim}
-\RequirePackage[style=numeric,sorting=none,abbreviate=true,alldates=year,backref=true,hyperref=true,url=true,firstinits=true,uniquename=init,backend=biber,urldate=iso8601]{biblatex}
-\RequirePackage[ocgcolorlinks,linkcolor=imperialBlue,urlcolor=blue,citecolor=imperialBlue,pdfborder={0 0 0},pageanchor=true,hyperindex=true,breaklinks=true,pagebackref=false,linktocpage=true,pdfhighlight=/P]{hyperref}	%Automatically hyperlinks sections, citations, etc. and allows manual inserton of hyperlinks
-%\ifpdf
-%\else
-%\RequirePackage{hypdvips}	%Allows hyperref to compile properly in PS; comment out for compiling directly to PDF
-%\fi
-	%moved to allow later use
-\RequirePackage[acronym,toc,nonumberlist,section=chapter]{glossaries}
-%\RequirePackage{glossaries-extra}	%Used to create lists of symbols and acronyms, as well as glossaries
 
+\RequirePackage[style=\getRefStyle,sorting=none,abbreviate=true,alldates=year,backref=true,hyperref=true,url=true,firstinits=true,uniquename=init,backend=biber,urldate=iso8601]{biblatex}
+\RequirePackage[ocgcolorlinks,linkcolor=imperialBlue,urlcolor=blue,citecolor=imperialBlue,pdfborder={0 0 0},pageanchor=true,hyperindex=true,breaklinks=true,pagebackref=false,linktocpage=true,pdfhighlight=/P]{hyperref}	%Automatically hyperlinks sections, citations, etc. and allows manual inserton of hyperlinks
+\RequirePackage{xstring}
+\RequirePackage[acronym,toc,nonumberlist,section=chapter]{glossaries}
 \RequirePackage[ocgcolorlinks]{ocgx2}
 \RequirePackage{siunitx}
 \RequirePackage{tikz}
-\RequirePackage{pgfplots} % Allows for use of TikZ plots and optionally (as of Pgfplots 1.3):
-\pgfplotsset{compat=newest}
-
-\RequirePackage{catchfile}
+\RequirePackage{pgfplots}\pgfplotsset{compat=newest}
 \RequirePackage[color=red]{attachfile2} %Allows embedding of files in document, loaded last to prevent errors
-
+%\RequirePackage{glossaries-extra}	%Used to create lists of symbols and acronyms, as well as glossaries
 \RequirePackage{eforms}
 
 \definecolor{airforceblue}{RGB}{93, 138, 168}
@@ -155,6 +132,25 @@
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-------------------------------- Details ---------------------------------------%
+% Defaults
+
+\def\getAuthor{\texttt{Set Author using: \textbackslash setAuthor[Signature Path]\{Name\}}}
+\def\getAuthorSignature{\sigField[\Lock{/Action/All}]{AuthorSignature}{6cm}{2.5cm} \\ \rule{6cm}{0.4pt}\par}
+
+\def\getTitle{\texttt{Set Title using: \textbackslash setTitle\{Title\}}}
+\def\getSupervisor{\texttt{Set Supervisor using: \textbackslash setSupervisor\{Supervisor Name\}}}
+\def\getSubject{\texttt{Set Subject using: \textbackslash setSubject\{Subject\}}}
+\def\getInstitution{University of the Witwatersrand}
+\def\getFaculty{Engineering and the Built Environment}
+\def\getDegree{\texttt{Set Degree using: \textbackslash setDegree\{Degree\}}}
+\def\getLocale{Johannesburg}
+\def\getKeywords{\texttt{Set Keywords using: \textbackslash setKeywords\{Keywords\}}}
+\def\getType{\texttt{Set document type using: \textbackslash setType\{Type\}}}
+
+
+
+
+
 \newcommand{\setTitle}[1]{\def\getTitle{#1}}
 
 %\newcommand{\setAuthor}[2][]{
@@ -164,7 +160,7 @@
 %}
 \newcommand{\setAuthor}[2][]{
 \def\getAuthor{#2}
-\ifthenelse{\isempty{#1}}{\def\getAuthorSignature{\sigField{Author Signature}{6cm}{2.5cm} \\ \rule{6cm}{0.4pt}\par}}{
+\ifthenelse{\isempty{#1}}{\def\getAuthorSignature{\sigField[\Lock{/Action/All}]{Author Signature}{6cm}{2.5cm} \\ \rule{6cm}{0.4pt}\par}}{
 \def\getAuthorSignature{\includegraphics[height=2.5cm]{#1}}}
 }
 
