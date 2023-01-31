@@ -146,6 +146,8 @@
 \def\getLocale{Johannesburg}
 \def\getKeywords{\texttt{Set Keywords using: \textbackslash setKeywords\{Keywords\}}}
 \def\getType{\texttt{Set document type using: \textbackslash setType\{Type\}}}
+\def\getAuthorStudentNumber{\texttt{Set Author Student Number using: \textbackslash setAuthorStudentNumber\{Student Number\}}}
+\def\getAuthorORCID{\texttt{Set Author ORCID using: \textbackslash setAuthorORCID\{ORCID\}}}
 
 
 
