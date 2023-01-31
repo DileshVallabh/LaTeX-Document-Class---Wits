@@ -153,6 +153,9 @@
 
 \newcommand{\setTitle}[1]{\def\getTitle{#1}}
 
+\newcommand{\setAuthorStudentNumber}[1]{\def\getAuthorStudentNumber{#1}}
+\newcommand{\setAuthorORCID}[1]{\def\getAuthorORCID{#1}}
+
 %\newcommand{\setAuthor}[2][]{
 %\def\getAuthor{#2}
 %\ifthenelse{\isempty{#1}}{\def\getAuthorSignature{\vspace*{2.5cm}\rule{6cm}{0.4pt} \par}}{
@@ -194,10 +197,11 @@
 	%Insert author data, including group number if defined and required
 	\hyphenpenalty=50
 	%\pretolerance=100
-	{\raggedright\Large\bf \getAuthor \par}
+	{\raggedright\Large\bf \getAuthor} \\ {\normalsize Student Number: \getAuthorStudentNumber}\par
 	%Insert student number for single undergraduate student
 	\vspace*{1em}
 	%Insert supervisor name for single undergraduate student, if defined
+	{\raggedright\Large\bf Supervisor: \getSupervisor \par}
 	\vspace*{\fill}
 	\hyphenpenalty=10000
 	{\raggedright A \getType\ submitted to the Faculty of \getFaculty, \getInstitution, in partial fulfilment of the requirements for the degree of \getDegree.}\par
@@ -222,14 +226,24 @@
 	\addcontentsline{toc}{\getDeclarationLevel}{Declaration}
 	%Declaration body text
 	{\raggedright
-	I declare that this \getType\ is my own, unaided work, except where otherwise acknowledged. It is being submitted for the degree of \getDegree\ in the \getInstitution. It has not been submitted before for any degree or examination at any other university.}\par
+	I, \getAuthor\ (Student Number: \getAuthorStudentNumber), am a student registered for the degree of \getDegree\ in the academic year \the\year{}.}
+	
+	I hereby declare the following:
+	\begin{itemize}
+		\item I am aware that plagiarism (the use of someone else's work without their permission and/or without acknowledging the original source) is wrong.
+		\item I confirm that the work submitted herewith for assessment in the above course is my own unaided work except where I have explicitly stated otherwise.
+		\item This task has not been submitted before, either individually or jointly, for any course requirement, examination or degree at this or any other tertiary educational institution.
+		\item I have followed the required conventions in referencing the thoughts and ideas of others.
+		\item I understand that the University of the Witwatersrand may take disciplinary action against me if it can be shown that this task is not my own unaided work or that I failed to acknowledge the sources of the ideas or words in my writing in this task.
+	\end{itemize}
+	\par
 	
 	\vspace*{\fill}
 	%Declaration signatures
 
 	{\raggedright Signed this \origdate\today \par
 	\getAuthorSignature \par
-	\getAuthor}
+	\getAuthor\\ \getAuthorStudentNumber}
 
 	\vspace*{10pt}
 	\clearpage
@@ -283,6 +297,7 @@
 \newcommand{\References}{
 \clearpage
 \printbibliography[title={References},category=cited]
+\clearpage
 \printbibliography[title={\getNotCitedTitle},notcategory=cited]
 \clearpage
 }
@@ -313,6 +328,8 @@
    	            	Faculty={\getFaculty},
    	            	Type={\getType},
    	            	Location={\getLocale},
+					ORCID={\getAuthorORCID},
+   	            	Student Number={\getAuthorStudentNumber}
 	            }
           }
 }
