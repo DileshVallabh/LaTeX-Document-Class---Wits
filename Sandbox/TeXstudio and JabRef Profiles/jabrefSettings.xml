@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE preferences SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<preferences EXTERNAL_XML_VERSION="1.0">
+  <root type="user">
+    <map/>
+    <node name="org">
+      <map/>
+      <node name="jabref">
+        <map>
+          <entry key="bindings" value="ctrl+alt+A;ctrl+ENTER;ctrl+G;F7;;ctrl+F8;alt+F8;;ESCAPE;Esc;ctrl+W;ctrl+C;ctrl+K;ctrl+shift+K;ctrl+alt+K;ctrl+shift+alt+K;ctrl+shift+C;ctrl+shift+alt+T;ctrl+X;DELETE;;alt+F7;ctrl+T;alt+DOWN;ctrl+TAB;ctrl+PLUS;alt+UP;ctrl+shift+TAB;ctrl+MINUS;ctrl+ENTER;ctrl+alt+e;ctrl+shift+e;ctrl+DOWN;ctrl+UP;alt+1;F1;ctrl+I;ctrl+alt+I;;;ctrl+M;;;;;;;;;;;ctrl+shift+A;ctrl+shift+B;ctrl+N;ctrl+shift+N;ctrl+shift+I;;ctrl+shift+M;ctrl+shift+T;ctrl+shift+P;;ctrl+shift+U;ctrl+PAGE_DOWN;F9;ctrl+E;alt+0;F3;F4;ctrl+shift+O;ctrl+O;ctrl+shift+L;ctrl+V;alt+S;ctrl+PAGE_UP;shift+F9;ctrl+shift+R;ctrl+L;ctrl+Q;ctrl+Y;ctrl+alt+O;;;;ctrl+R;ctrl+shift+D;ctrl+alt+S;ctrl+S;ctrl+shift+S;ctrl+F;shift+F7;ctrl+A;HOME;END;;;ctrl+N;shift+DELETE;ctrl+shift+F7;alt+3;ctrl+alt+shift+A;ctrl+Z;alt+4;F6"/>
+          <entry key="autoCompleteFields" value="entryset;title;editor;author;related;journal;publisher;keywords;crossref"/>
+          <entry key="previewStyle" value="&lt;font face=&quot;sans-serif&quot;&gt;&lt;b&gt;\bibtextype&lt;/b&gt;&lt;a name=&quot;\citationkey&quot;&gt;\begin{citationkey} (\citationkey)&lt;/a&gt;\end{citationkey}__NEWLINE__\begin{author}&lt;BR&gt;&lt;BR&gt;\format[Authors(LastFirst, FullName,Sep= / ,LastSep= / ),HTMLChars]{\author}\end{author}__NEWLINE__\begin{editor &amp; !author}&lt;BR&gt;&lt;BR&gt;\format[Authors(LastFirst,FullName,Sep= / ,LastSep= / ),HTMLChars]{\editor} (\format[IfPlural(Eds.,Ed.)]{\editor})\end{editor &amp; !author}__NEWLINE__\begin{title}&lt;BR&gt;&lt;b&gt;\format[HTMLChars]{\title}&lt;/b&gt; \end{title}__NEWLINE__&lt;BR&gt;\begin{date}\date\end{date}\begin{edition}, \edition. edition\end{edition}__NEWLINE__\begin{editor &amp; author}&lt;BR&gt;&lt;BR&gt;\format[Authors(LastFirst,FullName,Sep= / ,LastSep= / ),HTMLChars]{\editor} (\format[IfPlural(Eds.,Ed.)]{\editor})\end{editor &amp; author}__NEWLINE__\begin{booktitle}&lt;BR&gt;&lt;i&gt;\format[HTMLChars]{\booktitle}&lt;/i&gt;\end{booktitle}__NEWLINE__\begin{chapter} \format[HTMLChars]{\chapter}&lt;BR&gt;\end{chapter}\begin{editor &amp; !author}&lt;BR&gt;\end{editor &amp; !author}\begin{!editor}&lt;BR&gt;\end{!editor}\begin{journal}&lt;BR&gt;&lt;i&gt;\format[HTMLChars]{\journal}&lt;/i&gt; \end{journal} \begin{volume}, Vol. \volume\end{volume}\begin{series}&lt;BR&gt;\format[HTMLChars]{\series}\end{series}\begin{number}, No. \format[HTMLChars]{\number}\end{number}__NEWLINE__\begin{school} \format[HTMLChars]{\school}, \end{school}__NEWLINE__\begin{institution} &lt;em&gt;\format[HTMLChars]{\institution}, &lt;/em&gt;\end{institution}__NEWLINE__\begin{publisher}&lt;BR&gt;\format[HTMLChars]{\publisher}\end{publisher}\begin{location}: \format[HTMLChars]{\location} \end{location}__NEWLINE__\begin{pages}&lt;BR&gt; p. \format[FormatPagesForHTML]{\pages}\end{pages}__NEWLINE__\begin{abstract}&lt;BR&gt;&lt;BR&gt;&lt;b&gt;Abstract: &lt;/b&gt;\format[HTMLChars]{\abstract} \end{abstract}__NEWLINE__\begin{owncitation}&lt;BR&gt;&lt;BR&gt;&lt;b&gt;Own citation: &lt;/b&gt;\format[HTMLChars]{\owncitation} \end{owncitation}__NEWLINE__\begin{comment}&lt;BR&gt;&lt;BR&gt;&lt;b&gt;Comment: &lt;/b&gt;\format[Markdown,HTMLChars]{\comment}\end{comment}__NEWLINE__&lt;/font&gt;__NEWLINE__"/>
+          <entry key="columnNames" value="entrytype;title;author/editor;year;journal/booktitle;ranking;readstatus;priority"/>
+          <entry key="columnWidths" value="100;100;100;100;100;100;100;100"/>
+          <entry key="columnSortTypes" value=""/>
+          <entry key="columnSortOrder" value=""/>
+          <entry key="webSearchVisible" value="true"/>
+          <entry key="groupSidepaneVisible" value="true"/>
+          <entry key="sidePaneComponentNames" value=""/>
+          <entry key="sidePaneComponentPreferredPositions" value=""/>
+          <entry key="selectedFetcherIndex" value="0"/>
+          <entry key="mainWindowPosX" value="-6.400000095367432"/>
+          <entry key="mainWindowPosY" value="-6.400000095367432"/>
+          <entry key="mainWindowSizeX" value="1548.800048828125"/>
+          <entry key="mainWindowSizeY" value="876.7999877929688"/>
+          <entry key="windowMaximised" value="true"/>
+          <entry key="openLastEdited" value="true"/>
+          <entry key="lastFocused" value="C:\Users\diles\OneDrive\Academia\MSc. Eng. Aeronautical\Embry-Riddle\ASCI 674 - Project Management in Aviation or Aerospace\Module 5\Project Outline\Embry-Riddle LaTeX Template\References\References.bib"/>
+          <entry key="sidePaneWidthFX" value="0.26067708333333334"/>
+          <entry key="workingDirectory" value="C:\Users\diles\OneDrive\Academia\MSc. Eng. Aeronautical\Embry-Riddle\ASCI 674 - Project Management in Aviation or Aerospace\Module 6\Discussion\Embry-Riddle LaTeX Template\References"/>
+          <entry key="entryEditorHeightFX" value="0.5413200221852468"/>
+          <entry key="cyclePreviewPos" value="0"/>
+          <entry key="cyclePreview" value="apa.csl;/ieee.csl;Customized preview style"/>
+          <entry key="previewPanelHeightFX" value="0.65"/>
+          <entry key="previewAsTab" value="false"/>
+          <entry key="collectTelemetry" value="false"/>
+          <entry key="askedCollectTelemetry" value="true"/>
+          <entry key="recentDatabases" value="C:\\Users\\diles\\OneDrive\\Academia\\MSc. Eng. Aeronautical\\Embry-Riddle\\ASCI 674 - Project Management in Aviation or Aerospace\\Module 5\\Project Outline\\Embry-Riddle LaTeX Template\\References\\References.bib;C:\\Users\\diles\\OneDrive\\Academia\\MSc. Eng. Aeronautical\\Embry-Riddle\\ASCI 674 - Project Management in Aviation or Aerospace\\Module 5\\Discussion\\Embry-Riddle LaTeX Template\\References\\References.bib;C:\\Users\\diles\\OneDrive\\Academia\\MSc. Eng. Aeronautical\\Embry-Riddle\\ASCI 674 - Project Management in Aviation or Aerospace\\Module 4\\Discussion\\Embry-Riddle LaTeX Template\\References\\References.bib;C:\\Users\\diles\\OneDrive\\Academia\\MSc. Eng. Aeronautical\\Embry-Riddle\\ASCI 674 - Project Management in Aviation or Aerospace\\Module 3\\Assignment\\Embry-Riddle LaTeX Template\\References\\References.bib;C:\\Users\\diles\\OneDrive\\Academia\\MSc. Eng. Aeronautical\\Research\\Proposal\\Thesis\\References\\References.bib;C:\\Users\\diles\\OneDrive\\Academia\\MSc. Eng. Aeronautical\\Embry-Riddle\\ASCI 674 - Project Management in Aviation or Aerospace\\Module 3\\Project Topic\\Embry-Riddle LaTeX Template\\References\\References.bib;C:\\Users\\diles\\OneDrive\\Academia\\MSc. Eng. Aeronautical\\Embry-Riddle\\ASCI 674 - Project Management in Aviation or Aerospace\\Module 3\\Discussion\\Embry-Riddle LaTeX Template\\References\\References.bib;C:\\Users\\diles\\OneDrive\\Academia\\MSc. Eng. Aeronautical\\Embry-Riddle\\ASCI 674 - Project Management in Aviation or Aerospace\\Module 2\\Software Review\\Embry-Riddle LaTeX Template\\References\\References.bib"/>
+          <entry key="defaultEncoding" value="UTF-8"/>
+          <entry key="biblatexMode" value="false"/>
+          <entry key="warnAboutDuplicatesInInspection" value="true"/>
+          <entry key="confirmDelete" value="true"/>
+          <entry key="enforceLegalBibtexKey" value="true"/>
+          <entry key="allowIntegerEditionBibtex" value="false"/>
+          <entry key="memoryStickMode" value="false"/>
+          <entry key="showAdvancedHints" value="true"/>
+          <entry key="useOwner" value="false"/>
+          <entry key="defaultOwner" value="diles"/>
+          <entry key="overwriteOwner" value="false"/>
+          <entry key="useTimeStamp" value="true"/>
+          <entry key="timeStampFormat" value="yyyy-MM-dd"/>
+          <entry key="timeStampField" value="timestamp"/>
+          <entry key="overwriteTimeStamp" value="false"/>
+          <entry key="updateTimestamp" value="false"/>
+          <entry key="backup" value="true"/>
+          <entry key="resolveStringsAllFields" value="false"/>
+          <entry key="doNotResolveStringsFor" value="url"/>
+          <entry key="newline" value="&#13;&#10;"/>
+          <entry key="reformatFileOnSaveAndExport" value="false"/>
+          <entry key="fileDirectory" value=""/>
+          <entry key="bibLocAsPrimaryDir" value="true"/>
+          <entry key="useRegExpSearch" value="false"/>
+          <entry key="autolinkExactKeyOnly" value="false"/>
+          <entry key="runAutomaticFileSearch" value="false"/>
+          <entry key="allowFileAutoOpenBrowse" value="true"/>
+          <entry key="localAutoSave" value="true"/>
+          <entry key="autoResizeMode" value="true"/>
+          <entry key="namesNatbib" value="true"/>
+          <entry key="namesAsIs" value="false"/>
+          <entry key="namesFf" value="false"/>
+          <entry key="abbrAuthorNames" value="true"/>
+          <entry key="namesLastOnly" value="false"/>
+          <entry key="extraFileColumns" value="false"/>
+          <entry key="specialFieldsEnabled" value="true"/>
+          <entry key="autoSyncSpecialFieldsToKeywords" value="true"/>
+          <entry key="serializeSpecialFields" value="false"/>
+          <entry key="emailSubject" value="References"/>
+          <entry key="openFoldersOfAttachedFiles" value="false"/>
+          <entry key="citeCommand" value="\cite"/>
+          <entry key="useDefaultConsoleApplication" value="true"/>
+          <entry key="consoleCommand" value="C:\Program Files\ConEmu\ConEmu64.exe /single /dir &quot;%DIR&quot;"/>
+          <entry key="adobeAcrobatCommand" value="C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader"/>
+          <entry key="sumatraCommand" value="C:\Program Files\SumatraPDF"/>
+          <entry key="userDefaultFileBrowserApplication" value="true"/>
+          <entry key="fileBrowserCommand" value="explorer.exe /select, &quot;%DIR&quot;"/>
+          <entry key="grayOutNonHits" value="true"/>
+          <entry key="groupIntersectUnionViewModes" value="INTERSECTION"/>
+          <entry key="autoAssignGroup" value="true"/>
+          <entry key="groupsDefaultField" value="keywords"/>
+          <entry key="groupKeywordSeparator" value=","/>
+          <entry key="autoOpenForm" value="true"/>
+          <entry key="defaultShowSource" value="false"/>
+          <entry key="showRecommendations" value="true"/>
+          <entry key="acceptRecommendations" value="true"/>
+          <entry key="showLatexCitations" value="true"/>
+          <entry key="validateInEntryEditor" value="true"/>
+          <entry key="autoComplete" value="false"/>
+          <entry key="autoCompFirstNameMode" value="BOTH"/>
+          <entry key="autoCompLF" value="false"/>
+          <entry key="autoCompFF" value="false"/>
+          <entry key="defaultBibtexKeyPattern" value="[auth][year][shorttitle:abbr]"/>
+          <entry key="avoidOverwritingKey" value="false"/>
+          <entry key="warnBeforeOverwritingKey" value="true"/>
+          <entry key="generateKeysBeforeSaving" value="false"/>
+          <entry key="keyGenAlwaysAddLetter" value="false"/>
+          <entry key="keyGenFirstLetterA" value="true"/>
+          <entry key="KeyPatternRegex" value=""/>
+          <entry key="KeyPatternReplacement" value=""/>
+          <entry key="importFileNamePattern" value="[bibtexkey] - [title]"/>
+          <entry key="importFileDirPattern" value=""/>
+          <entry key="exportPriDescending" value="false"/>
+          <entry key="exportSecDescending" value="false"/>
+          <entry key="exportTerDescending" value="true"/>
+          <entry key="exportInOriginalOrder" value="false"/>
+          <entry key="exportInSpecifiedOrder" value="false"/>
+          <entry key="exportPriSort" value="citationkey"/>
+          <entry key="exportSecSort" value="author"/>
+          <entry key="exportTerSort" value="title"/>
+          <entry key="nameFormatterNames" value=""/>
+          <entry key="nameFormatterFormats" value=""/>
+          <entry key="useXmpPrivacyFilter" value="false"/>
+          <entry key="xmpPrivacyFilters" value="review;timestamp;owner;note;pdf;keywords"/>
+          <entry key="remoteServerPort" value="6050"/>
+          <entry key="useRemoteServer" value="true"/>
+          <entry key="useCaseKeeperOnSearch" value="true"/>
+          <entry key="useUnitFormatterOnSearch" value="true"/>
+          <entry key="useProxy" value="false"/>
+          <entry key="proxyHostname" value=""/>
+          <entry key="proxyPort" value="80"/>
+          <entry key="useProxyAuthentication" value="false"/>
+          <entry key="proxyUsername" value=""/>
+          <entry key="proxyPassword" value=""/>
+          <entry key="fxTheme" value="Dark.css"/>
+          <entry key="customTabName_0" value="General"/>
+          <entry key="customTabFields_0" value="url;doi;isbn;printed;readstatus;priority;groups;file;keywords;relevance;qualityassured;crossref;urldate;owner;ranking;timestamp;eprint"/>
+          <entry key="customTabName_1" value="Abstract"/>
+          <entry key="customTabFields_1" value="abstract"/>
+          <entry key="customTabName_2" value="Comments"/>
+          <entry key="customTabFields_2" value="comment"/>
+          <entry key="mergeEntriesDiffMode" value="WORD"/>
+          <entry key="versionIgnoreUpdate" value="5.6"/>
+          <entry key="idEntryGenerator" value="ISBN"/>
+          <entry key="importWorkingDirectory" value="C:\Users\diles"/>
+          <entry key="lastUsedExport" value="HTML list"/>
+          <entry key="exportWorkingDirectory" value="C:\Users\diles\OneDrive\Academia\MSc. Eng. Aeronautical\Embry-Riddle\ASCI 604 - Human Factors in the Aviation Industry\Final Paper - Research Proposal\Presentation"/>
+          <entry key="addCreationDate" value="false"/>
+          <entry key="addModificationDate" value="false"/>
+          <entry key="bindNames" value="Abbreviate;Accept;Autogenerate citation keys;Automatically link files;Capitalize word;Check integrity;Cleanup;Clear read status;Clear search;Close dialog;Close library;Copy;Copy \\cite{citation key};Copy citation key;Copy citation key and link;Copy citation key and title;Copy preview;Copy title;Cut;Delete entry;Delete;Download full text documents;Edit strings;Entry editor, next entry;Entry editor, next panel;Entry editor, next panel 2;Entry editor, previous entry;Entry editor, previous panel;Entry editor, previous panel 2;Execute default action in dialog;Export;Export Selected;File list editor, move entry down;File list editor, move entry up;Focus entry table;Help;Import into current library;Import into new library;Lowercase word;Uppercase word;Merge entries;Move caret left;Move caret right;Move caret to beginning of line;Move caret to  of line;Move caret to next word;Move caret to previous word;Move caret down;Move caret to beginning of text;Move caret to end of text;Move caret up;New article;New book;New entry;New entry from plain text;New inbook;New inproceesings;New mastersthesis;New phdthesis;New proceedings;New technical report;New unpublished;Next library;Next preview layout;Open / close entry editor;Open OpenOffice/LibreOffice connection;Open URL or DOI;Open file;Open folder;Open library;Open terminal here;Paste;Preamble editor, store changes;Previous library;Previous preview layout;Pull changes from shared database;Push to application;Quit JabRef;Redo;Refresh OO;Remove characters until next word;Remove all characters caret to end of line;Characters until previous word;Replace string;Resolve duplicate citation keys;Save all;Save library;Save library as ...;Search;Search for unlinked local files;Select all;Select first entry;Select last entry;Set read status to read;Set read status to skimmed;String dialog, add string;String dialog, remove string;Synchronize files;Toggle groups interface;Unabbreviate;Undo;Web search;Write XMP"/>
+          <entry key="nonWrappableFields" value="pdf;ps;url;doi;file;isbn;issn"/>
+          <entry key="mainTableColumnNames" value="groups;files;linked_id;field:entrytype;field:title;field:author/editor;field:year;field:journal/booktitle;special:ranking;special:readstatus;special:priority"/>
+          <entry key="mainTableColumnWidths" value="28.0;28.0;28.0;182.98941301040455;182.98941301040455;182.98941301040455;185.81149431090992;180.16733170989926;80.0;28.0;28.0"/>
+          <entry key="mainTableColumnSortTypes" value="ASCENDING;ASCENDING;DESCENDING;ASCENDING;ASCENDING;ASCENDING;ASCENDING;ASCENDING;ASCENDING;ASCENDING;ASCENDING"/>
+          <entry key="mainTableColumnSortOrder" value=""/>
+          <entry key="protectedTermsEnabledExternal" value=""/>
+          <entry key="protectedTermsDisabledExternal" value=""/>
+          <entry key="protectedTermsEnabledInternal" value="/protectedterms/months_weekdays.terms;/protectedterms/countries_territories.terms;/protectedterms/electrical_engineering.terms"/>
+          <entry key="protectedTermsDisabledInternal" value=""/>
+          <entry key="pushToApplication" value="TeXstudio"/>
+          <entry key="emacsPath" value="emacsclient.exe"/>
+          <entry key="lyxpipe" value="C:\Users\diles\.lyx/lyxpipe"/>
+          <entry key="texmakerPath" value=""/>
+          <entry key="TeXstudioPath" value="C:\Program Files\TeXstudio\texstudio.exe"/>
+          <entry key="vim" value="vim"/>
+          <entry key="winEdtPath" value=""/>
+          <entry key="emacsParameters" value="-n -e"/>
+          <entry key="vimServer" value="vim"/>
+          <entry key="externalJournalLists" value=""/>
+          <entry key="displayGroupCount" value="true"/>
+          <entry key="useCustomDOIURI" value="false"/>
+          <entry key="baseDOIURI" value="https://doi.org"/>
+          <entry key="defaultUnwantedBibtexKeyCharacters" value="-`ʹ:!;?^+"/>
+          <entry key="downloadLinkedFiles" value="true"/>
+          <entry key="AskAutoNamingPDFsAgain" value="true"/>
+          <entry key="regExpSearchExpression" value="**/.*[citationkey].*\\.[extension]"/>
+          <entry key="generateKeyOnImport" value="true"/>
+          <entry key="overrideDefaultFontSize" value="false"/>
+          <entry key="mainFontSize" value="9"/>
+          <entry key="lastEdited" value="C:\\Users\\diles\\OneDrive\\Academia\\MSc. Eng. Aeronautical\\Embry-Riddle\\ASCI 674 - Project Management in Aviation or Aerospace\\Module 5\\Project Outline\\Embry-Riddle LaTeX Template\\References\\References.bib"/>
+          <entry key="sendLanguageData" value="false"/>
+          <entry key="sendOSData" value="false"/>
+          <entry key="sendTimezoneData" value="false"/>
+          <entry key="searchDisplayMode" value="FILTER"/>
+          <entry key="caseSensitiveSearch" value="false"/>
+          <entry key="regExpSearch" value="false"/>
+        </map>
+        <node name="bibtexkeypatterns">
+          <map/>
+        </node>
+        <node name="customizedBiblatexTypes">
+          <map>
+            <entry key="article" value="jabref-entrytype: article: req[author;date;journaltitle;title] opt[addendum;annotator;commentator;doi;editor;editora;editorb;editorc;eid;eprint;eprintclass;eprinttype;issn;issue;issuesubtitle;issuetitle;journalsubtitle;language;note;number;origlanguage;pages;pubstate;series;subtitle;titleaddon;translator;url;urldate;version;volume]"/>
+            <entry key="book" value="jabref-entrytype: book: req[author;date;title] opt[addendum;afterword;annotator;chapter;commentator;doi;edition;editor;editora;editorb;editorc;eprint;eprintclass;eprinttype;foreword;introduction;isbn;language;location;mainsubtitle;maintitle;maintitleaddon;note;number;origlanguage;pages;pagetotal;part;publisher;pubstate;series;subtitle;titleaddon;translator;url;urldate;volume;volumes]"/>
+            <entry key="bookinbook" value="jabref-entrytype: bookinbook: req[author;booktitle;date;title] opt[addendum;afterword;annotator;bookauthor;booksubtitle;booktitleaddon;chapter;commentator;doi;edition;editor;editora;editorb;editorc;eprint;eprintclass;eprinttype;foreword;introduction;isbn;language;location;mainsubtitle;maintitle;maintitleaddon;note;number;origlanguage;pages;part;publisher;pubstate;series;subtitle;titleaddon;translator;url;urldate;volume;volumes]"/>
+            <entry key="booklet" value="jabref-entrytype: booklet: req[author/editor;date;title] opt[addendum;chapter;doi;eprint;eprintclass;eprinttype;howpublished;language;location;note;pages;pagetotal;pubstate;subtitle;titleaddon;type;url;urldate]"/>
+            <entry key="codefragment" value="jabref-entrytype: codefragment: req[url] opt[date;doi;eprinttype;eprintclass;eprint;editor;file;hal_id;hal_version;institution;introducedin;license;month;note;organization;publisher;related;relatedstring;repository;swhid;urldate;version]"/>
+            <entry key="collection" value="jabref-entrytype: collection: req[date;editor;title] opt[addendum;afterword;annotator;chapter;commentator;doi;edition;editora;editorb;editorc;eprint;eprintclass;eprinttype;foreword;introduction;isbn;language;location;mainsubtitle;maintitle;maintitleaddon;note;number;origlanguage;pages;pagetotal;part;publisher;pubstate;series;subtitle;titleaddon;translator;url;urldate;volume;volumes]"/>
+            <entry key="conference" value="jabref-entrytype: conference: req[author;booktitle;date;title] opt[addendum;booksubtitle;booktitleaddon;chapter;doi;editor;eprint;eprintclass;eprinttype;eventdate;eventtitle;eventtitleaddon;isbn;language;location;mainsubtitle;maintitle;maintitleaddon;note;number;organization;pages;part;publisher;pubstate;series;subtitle;titleaddon;url;urldate;venue;volume;volumes]"/>
+            <entry key="dataset" value="jabref-entrytype: dataset: req[author/editor;date;title] opt[addendum;doi;edition;eprint;eprintclass;eprinttype;howpublished;language;location;note;organization;pubstate;subtitle;titleaddon;type;url;urldate;version]"/>
+            <entry key="electronic" value="jabref-entrytype: electronic: req[author/editor;date;title;url] opt[addendum;language;note;organization;pubstate;subtitle;titleaddon;urldate;version]"/>
+            <entry key="inbook" value="jabref-entrytype: inbook: req[author;booktitle;date;title] opt[addendum;afterword;annotator;bookauthor;booksubtitle;booktitleaddon;chapter;commentator;doi;edition;editor;editora;editorb;editorc;eprint;eprintclass;eprinttype;foreword;introduction;isbn;language;location;mainsubtitle;maintitle;maintitleaddon;note;number;origlanguage;pages;part;publisher;pubstate;series;subtitle;titleaddon;translator;url;urldate;volume;volumes]"/>
+            <entry key="incollection" value="jabref-entrytype: incollection: req[author;booktitle;date;title] opt[addendum;afterword;annotator;booksubtitle;booktitleaddon;chapter;commentator;doi;edition;editor;editora;editorb;editorc;eprint;eprintclass;eprinttype;foreword;introduction;isbn;language;location;mainsubtitle;maintitle;maintitleaddon;note;number;origlanguage;pages;part;publisher;pubstate;series;subtitle;titleaddon;translator;url;urldate;volume;volumes]"/>
+            <entry key="inproceedings" value="jabref-entrytype: inproceedings: req[author;booktitle;date;title] opt[addendum;booksubtitle;booktitleaddon;chapter;doi;editor;eprint;eprintclass;eprinttype;eventdate;eventtitle;eventtitleaddon;isbn;language;location;mainsubtitle;maintitle;maintitleaddon;note;number;organization;pages;part;publisher;pubstate;series;subtitle;titleaddon;url;urldate;venue;volume;volumes]"/>
+            <entry key="inreference" value="jabref-entrytype: inreference: req[author;booktitle;date;title] opt[addendum;afterword;annotator;booksubtitle;booktitleaddon;chapter;commentator;doi;edition;editor;editora;editorb;editorc;eprint;eprintclass;eprinttype;foreword;introduction;isbn;language;location;mainsubtitle;maintitle;maintitleaddon;note;number;origlanguage;pages;part;publisher;pubstate;series;subtitle;titleaddon;translator;url;urldate;volume;volumes]"/>
+            <entry key="manual" value="jabref-entrytype: manual: req[author/editor;date;title] opt[addendum;chapter;doi;edition;eprint;eprintclass;eprinttype;isbn;language;location;note;number;organization;pages;pagetotal;publisher;pubstate;series;subtitle;titleaddon;type;url;urldate;version]"/>
+            <entry key="mastersthesis" value="jabref-entrytype: mastersthesis: req[author;date;institution;title] opt[addendum;chapter;doi;eprint;eprintclass;eprinttype;isbn;language;location;note;pages;pagetotal;pubstate;subtitle;titleaddon;type;url;urldate]"/>
+            <entry key="misc" value="jabref-entrytype: misc: req[author/editor;date;title] opt[addendum;doi;eprint;eprintclass;eprinttype;howpublished;language;location;note;organization;pubstate;subtitle;titleaddon;type;url;urldate;version]"/>
+            <entry key="mvbook" value="jabref-entrytype: mvbook: req[author;date;title] opt[addendum;afterword;annotator;commentator;doi;edition;editor;editora;editorb;editorc;eprint;eprintclass;eprinttype;foreword;introduction;isbn;language;location;note;number;origlanguage;pagetotal;publisher;pubstate;series;subtitle;titleaddon;translator;url;urldate;volumes]"/>
+            <entry key="mvcollection" value="jabref-entrytype: mvcollection: req[date;editor;title] opt[addendum;afterword;annotator;commentator;doi;edition;editora;editorb;editorc;eprint;eprintclass;eprinttype;foreword;introduction;isbn;language;location;note;number;origlanguage;pagetotal;publisher;pubstate;series;subtitle;titleaddon;translator;url;urldate;volumes]"/>
+            <entry key="mvproceedings" value="jabref-entrytype: mvproceedings: req[date;title] opt[addendum;chapter;doi;editor;eprint;eprintclass;eprinttype;eventdate;eventtitle;eventtitleaddon;isbn;language;location;mainsubtitle;maintitle;maintitleaddon;note;number;organization;pages;pagetotal;publisher;pubstate;series;subtitle;titleaddon;url;urldate;venue;volume;volumes]"/>
+            <entry key="mvreference" value="jabref-entrytype: mvreference: req[date;editor;title] opt[addendum;afterword;annotator;commentator;doi;edition;editora;editorb;editorc;eprint;eprintclass;eprinttype;foreword;introduction;isbn;language;location;note;number;origlanguage;pagetotal;publisher;pubstate;series;subtitle;titleaddon;translator;url;urldate;volumes]"/>
+            <entry key="online" value="jabref-entrytype: online: req[author/editor;date;title;url] opt[addendum;language;note;organization;pubstate;subtitle;titleaddon;urldate;version]"/>
+            <entry key="patent" value="jabref-entrytype: patent: req[author;date;number;title] opt[addendum;doi;eprint;eprintclass;eprinttype;holder;location;note;pubstate;subtitle;titleaddon;type;url;urldate;version]"/>
+            <entry key="periodical" value="jabref-entrytype: periodical: req[date;editor;title] opt[addendum;doi;editora;editorb;editorc;eprint;eprintclass;eprinttype;issn;issue;issuesubtitle;issuetitle;language;note;number;pubstate;series;subtitle;url;urldate;volume]"/>
+            <entry key="phdthesis" value="jabref-entrytype: phdthesis: req[author;date;institution;title] opt[addendum;chapter;doi;eprint;eprintclass;eprinttype;isbn;language;location;note;pages;pagetotal;pubstate;subtitle;titleaddon;type;url;urldate]"/>
+            <entry key="proceedings" value="jabref-entrytype: proceedings: req[date;title] opt[addendum;chapter;doi;editor;eprint;eprintclass;eprinttype;eventdate;eventtitle;eventtitleaddon;isbn;language;location;mainsubtitle;maintitle;maintitleaddon;note;number;organization;pages;pagetotal;part;publisher;pubstate;series;subtitle;titleaddon;url;urldate;venue;volume;volumes]"/>
+            <entry key="reference" value="jabref-entrytype: reference: req[date;editor;title] opt[addendum;afterword;annotator;chapter;commentator;doi;edition;editora;editorb;editorc;eprint;eprintclass;eprinttype;foreword;introduction;isbn;language;location;mainsubtitle;maintitle;maintitleaddon;note;number;origlanguage;pages;pagetotal;part;publisher;pubstate;series;subtitle;titleaddon;translator;url;urldate;volume;volumes]"/>
+            <entry key="report" value="jabref-entrytype: report: req[author;date;institution;title;type] opt[addendum;chapter;doi;eprint;eprintclass;eprinttype;isrn;language;location;note;number;pages;pagetotal;pubstate;subtitle;titleaddon;url;urldate;version]"/>
+            <entry key="set" value="jabref-entrytype: set: req[crossref;entryset] opt[]"/>
+            <entry key="software" value="jabref-entrytype: software: req[author/editor;date;title] opt[addendum;doi;eprint;eprintclass;eprinttype;howpublished;language;location;note;organization;pubstate;subtitle;titleaddon;type;url;urldate;version]"/>
+            <entry key="softwaremodule" value="jabref-entrytype: softwaremodule: req[author;subtitle;url;year] opt[date;doi;eprinttype;eprintclass;eprint;editor;file;hal_id;hal_version;institution;introducedin;license;month;note;organization;publisher;related;relatedstring;repository;swhid;urldate;version]"/>
+            <entry key="softwareversion" value="jabref-entrytype: softwareversion: req[author/editor;title;url;year] opt[date;eprintclass;eprinttype;hal_id;hal_version;institution;introducedin;license;month;note;organization;publisher;related;relatedtype;relatedstring;repository;swhid;subtitle;urldate]"/>
+            <entry key="suppbook" value="jabref-entrytype: suppbook: req[author;booktitle;date;title] opt[addendum;afterword;annotator;bookauthor;booksubtitle;booktitleaddon;chapter;commentator;doi;edition;editor;editora;editorb;editorc;eprint;eprintclass;eprinttype;foreword;introduction;isbn;language;location;mainsubtitle;maintitle;maintitleaddon;note;number;origlanguage;pages;part;publisher;pubstate;series;subtitle;titleaddon;translator;url;urldate;volume;volumes]"/>
+            <entry key="suppcollection" value="jabref-entrytype: suppcollection: req[author;booktitle;date;title] opt[addendum;afterword;annotator;booksubtitle;booktitleaddon;chapter;commentator;doi;edition;editor;editora;editorb;editorc;eprint;eprintclass;eprinttype;foreword;introduction;isbn;language;location;mainsubtitle;maintitle;maintitleaddon;note;number;origlanguage;pages;part;publisher;pubstate;series;subtitle;titleaddon;translator;url;urldate;volume;volumes]"/>
+            <entry key="suppperiodical" value="jabref-entrytype: suppperiodical: req[author;date;journaltitle;title] opt[addendum;annotator;commentator;doi;editor;editora;editorb;editorc;eid;eprint;eprintclass;eprinttype;issn;issue;issuesubtitle;issuetitle;journalsubtitle;language;note;number;origlanguage;pages;pubstate;series;subtitle;titleaddon;translator;url;urldate;version;volume]"/>
+            <entry key="techreport" value="jabref-entrytype: techreport: req[author;date;institution;title] opt[addendum;chapter;doi;eprint;eprintclass;eprinttype;isrn;language;location;note;number;pages;pagetotal;pubstate;subtitle;titleaddon;type;url;urldate;version]"/>
+            <entry key="thesis" value="jabref-entrytype: thesis: req[author;date;institution;title;type] opt[addendum;chapter;doi;eprint;eprintclass;eprinttype;isbn;language;location;note;pages;pagetotal;pubstate;subtitle;titleaddon;url;urldate]"/>
+            <entry key="unpublished" value="jabref-entrytype: unpublished: req[author;date;title] opt[addendum;eventdate;eventtitle;howpublished;language;location;note;pubstate;subtitle;titleaddon;url;urldate;venue]"/>
+            <entry key="www" value="jabref-entrytype: www: req[author/editor;date;title;url] opt[addendum;language;note;organization;pubstate;subtitle;titleaddon;urldate;version]"/>
+          </map>
+        </node>
+        <node name="customizedBibtexTypes">
+          <map>
+            <entry key="article" value="jabref-entrytype: article: req[author;journal;title;year] opt[issn;month;note;number;pages;urldate;volume]"/>
+            <entry key="book" value="jabref-entrytype: book: req[author;editor;publisher;title;year] opt[address;edition;isbn;month;note;number;series;urldate;volume]"/>
+            <entry key="booklet" value="jabref-entrytype: booklet: req[title] opt[address;author;howpublished;month;note;year]"/>
+            <entry key="conference" value="jabref-entrytype: conference: req[author;booktitle;title;year] opt[address;editor;month;note;number;organization;pages;publisher;series;volume]"/>
+            <entry key="electronic" value="jabref-entrytype: electronic: req[] opt[address;author;howpublished;language;month;note;organization;title;url;year]"/>
+            <entry key="ieeetranbstctl" value="jabref-entrytype: ieeetranbstctl: req[] opt[ctlalt_stretch_factor;ctldash_repeated_names;ctlmax_names_forced_etal;ctlname_format_string;ctlname_latex_cmd;ctlname_url_prefix;ctlnames_show_etal;ctluse_alt_spacing;ctluse_article_number;ctluse_forced_etal;ctluse_paper;ctluse_url]"/>
+            <entry key="inbook" value="jabref-entrytype: inbook: req[author;chapter;editor;pages;publisher;title;year] opt[address;edition;isbn;month;note;number;series;type;urldate;volume]"/>
+            <entry key="incollection" value="jabref-entrytype: incollection: req[author;booktitle;publisher;title;year] opt[address;chapter;edition;editor;isbn;month;note;number;pages;series;type;volume]"/>
+            <entry key="inproceedings" value="jabref-entrytype: inproceedings: req[author;booktitle;title;year] opt[address;editor;month;note;number;organization;pages;publisher;series;volume]"/>
+            <entry key="manual" value="jabref-entrytype: manual: req[title] opt[address;author;edition;isbn;month;note;organization;year]"/>
+            <entry key="mastersthesis" value="jabref-entrytype: mastersthesis: req[author;school;title;year] opt[address;month;note;type]"/>
+            <entry key="misc" value="jabref-entrytype: misc: req[] opt[author;howpublished;month;note;title;urldate;year]"/>
+            <entry key="patent" value="jabref-entrytype: patent: req[nationality;number;year;yearfiled] opt[address;assignee;author;day;dayfiled;language;month;monthfiled;note;title;type;url]"/>
+            <entry key="periodical" value="jabref-entrytype: periodical: req[title;year] opt[editor;language;month;note;number;organization;series;url;volume]"/>
+            <entry key="phdthesis" value="jabref-entrytype: phdthesis: req[author;institution;title;year] opt[address;chapter;month;note;school;subtitle;type]"/>
+            <entry key="proceedings" value="jabref-entrytype: proceedings: req[title;year] opt[address;editor;isbn;month;note;number;organization;publisher;series;volume]"/>
+            <entry key="standard" value="jabref-entrytype: standard: req[institution;organization;title] opt[address;author;howpublished;language;month;note;number;revision;type;url;year]"/>
+            <entry key="techreport" value="jabref-entrytype: techreport: req[author;institution;title;year] opt[address;isbn;month;note;number;type;urldate]"/>
+            <entry key="unpublished" value="jabref-entrytype: unpublished: req[author;note;title] opt[month;year]"/>
+          </map>
+        </node>
+      </node>
+    </node>
+  </root>
+</preferences>
