@@ -1,6 +1,6 @@
 % Dilesh Vallabh - 2022
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{AcademicFormatWits-ExtendsMemoir}[2022/04/04 General format class for reports - v0.1.0]
+\ProvidesClass{AcademicFormatWits-ExtendsMemoir}[2022/04/04 General format class for reports - v0.1.1]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% Global Variables
